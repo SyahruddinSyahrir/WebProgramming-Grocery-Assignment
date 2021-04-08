@@ -19,9 +19,11 @@
     width:100% !important;
     margin: 0;
 }
-
+.categories{
+    height: 400px;
+}
 .category-bg {
-    background-color: var(--silver);
+    /* background-color: var(--silver); */
 }
 
 .categories > ul > li {
@@ -55,10 +57,12 @@
     /* min-width: 250px;
     max-width: 250px; */
     width: 15vw;
+    margin:20px;
 }
 
 .sidebar-header {
     margin-left: 10px;
+    
 }
 
 .price-range {
