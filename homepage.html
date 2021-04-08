@@ -17,15 +17,23 @@
             <nav class="navbar navbar-expand-lg navbar-dark nav-bg m-0">
                 <div class="container-fluid">
                     <!-- <a class="navbar-brand mb-0 h1" href="#">TroliMart</a> -->
-                    <a class = "navbar-brand p-0 me-2" href="#">
-                        <img src="/images/trolimart rect2.png" width="180" alt="">
-                    </a>
-                    <input class="form-control mr-sm-2 border rounded w-50" type="search" placeholder="Search for groceries..." aria-label="Search">
-                    <button class="btn" type="submit">
-                        <a class="navbar-brand m-0" href="#">
-                            <img src="/images/search.png" width="35" height="35" alt="">
-                          </a>
-                    </button>
+                    <div>
+                        <a class="navbar-brand p-0 me-2" href="#">
+                            <img src="/images/trolimart rect2.png" width="180" alt="">
+                        </a>
+                    </div>
+                    
+                    <div class="align-items-center w-50">
+                        <form class="input-group align-items-center w-auto" action="">
+                            <input type="search" class="align-self-center form-control border rounded w-auto"
+                                placeholder="Search for groceries..." aria-label="Search" aria-describedby="button-addon2">
+                            <button class="align-items-center btn" type="submit" id="button-addon2">
+                                <a class="navbar-brand m-0" href="#">
+                                    <img src="/images/search.png" width="35" height="35" alt="">
+                                </a>
+                            </button>
+                        </form>
+                    </div>
                     <ul class="navbar-nav">
                         <li class="nav-item text-light ml-5">
                             <a class="navbar-brand" href="#">
