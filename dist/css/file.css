@@ -20,11 +20,12 @@
     margin: 0;
 }
 .categories{
-    height: 400px;
+    height: auto;
+    max-height: 600px;
 }
-.category-bg {
-    /* background-color: var(--silver); */
-}
+/* .category-bg {
+    background-color: var(--silver);
+} */
 
 .categories > ul > li {
     padding: 10px 10px 10px 25px;
@@ -46,6 +47,11 @@
 .card {
     min-width: 200px !important;
     min-height: 150px !important;
+}
+
+.jumbotron{
+    width: 1000px;
+    height: 400px;
 }
 
 .wrapper {
