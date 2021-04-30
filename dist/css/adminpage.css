@@ -125,6 +125,21 @@ html {
     margin-right: auto;
 }
 
+.iframe-container {
+	
+	overflow: hidden;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.video {
+	
+    width: 100%;
+	min-height: 30vw;
+	max-height: 50vw;
+	
+}
+
 footer{
     max-width: 100%;
     min-height: 100px;
